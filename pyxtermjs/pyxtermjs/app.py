@@ -12,6 +12,16 @@ import fcntl
 import shlex
 import logging
 import sys
+from flask_cors import CORS
+
+app = Flask(__name__)
+# Allow all domains
+CORS(app)
+
+# Or, to allow specific domains
+# CORS(app, origins=["http://example.com", "https://another.domain"])
+
+# Your Flask app routes and socketio configuration follow
 
 logging.getLogger("werkzeug").setLevel(logging.ERROR)
 
@@ -21,7 +31,7 @@ app = Flask(__name__, template_folder=".", static_folder=".", static_url_path=""
 app.config["SECRET_KEY"] = "secret!"
 app.config["fd"] = None
 app.config["child_pid"] = None
-socketio = SocketIO(app)
+socketio = SocketIO(app,cors_allowed_origins="*")
 
 
 def set_winsize(fd, row, col, xpix=0, ypix=0):
