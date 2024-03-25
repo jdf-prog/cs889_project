@@ -58,7 +58,6 @@ def read_and_forward_pty_output():
 def index():
     return render_template("index.html")
 
-
 @socketio.on("pty-input", namespace="/pty")
 def pty_input(data):
     """write to the child pty. The pty sees this as if you are typing in a real
@@ -66,6 +65,7 @@ def pty_input(data):
     """
     if app.config["fd"]:
         logging.debug("received input from browser: %s" % data["input"])
+        print(app.config["fd"])
         os.write(app.config["fd"], data["input"].encode())
 
 
@@ -81,6 +81,7 @@ def connect():
     """new client connected"""
     logging.info("new client connected")
     if app.config["child_pid"]:
+        print("There is already a child, returning")
         # already started child process, don't start another
         return
 
@@ -119,7 +120,7 @@ def main():
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
     )
     parser.add_argument(
-        "-p", "--port", default=5000, help="port to run server on", type=int
+        "-p", "--port", default=5001, help="port to run server on", type=int
     )
     parser.add_argument(
         "--host",

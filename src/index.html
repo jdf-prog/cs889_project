@@ -1,10 +1,42 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>pyxterm.js</title>
+    <title>CS889: DigitalDreamers Terminal Copilot</title>
     <style>
       html {
         font-family: arial;
+      }
+    </style>
+    <style>
+      body, html {
+        height: 100%;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4; /* Added a light background color */
+      }
+      .container {
+        display: flex;
+        justify-content: space-around;
+        margin: 20px;
+        height: calc(100% - 40px);
+      }
+      .container > div, .container > iframe {
+        width: 45%;
+        height: calc(100% - 100px); /* Adjusted for title height */
+        margin: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        background-color: #fff; /* Sets the background color of each element to white */
+      }
+      .title-bar {
+        text-align: center;
+        padding: 10px;
+        font-size: 20px; /* Sets the font size for the title bars */
+        font-weight: bold;
+        border-bottom: 1px solid #ddd; /* Adds a separating line under the title */
+        border-radius: 4px 4px 0 0; /* Rounds only the top corners */
+        background-color: #eee; /* A light grey background for the title bars */
       }
     </style>
     <link
@@ -21,7 +53,18 @@
       <span style="font-size: small" id="status">connecting...</span></span
     >
 
-    <div style="width: 100%; height: calc(100% - 50px)" id="terminal"></div>
+    <div class="container">
+      <div style="width: 45%; height: calc(100% - 50px)">
+        <div class="title-bar">Terminal</div>
+        <!-- Your terminal content goes here -->
+        <div style="height: calc(100% - 50px)" id="terminal"></div>
+    </div>
+      <div style="width: 45%; height: calc(100% - 50px)">
+        <div class="title-bar">Chatbot</div>
+        <iframe src="http://127.0.0.1:5000" style="width: 100%; height: calc(100% - 50px); border: none">
+        </iframe>
+      </div>
+    </div>
 
 <!--    <p style="text-align: right; font-size: small">-->
 <!--      built by <a href="https://chadsmith.dev">Chad Smith</a>-->
