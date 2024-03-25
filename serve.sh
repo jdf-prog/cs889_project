@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Start the first Python script in the background and get its PID
-python src/serve_chatbot.py --server_port 5000 &
+python src/serve_chatbot.py --server_port 9862 --terminal_addr "http://127.0.0.1:9863" &
 PID1=$!
 
 # Start the second Python script in the background and get its PID
-python src/app.py --host 127.0.0.1 --port 5001 --debug &
+python src/app.py --host 127.0.0.1 --port 9863 --debug &
 PID2=$!
 
 # Function to kill the background jobs if this script is terminated
