@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Start the first Python script in the background and get its PID
-python src/serve_chatbot.py --server_port 9862 --terminal_addr "http://127.0.0.1:9863" &
+python src/serve_chatbot.py --server_port 9862 --terminal_addr "http://127.0.0.1:9863" --model_name "gpt-3.5-turbo" &
 PID1=$!
 
 # Start the second Python script in the background and get its PID

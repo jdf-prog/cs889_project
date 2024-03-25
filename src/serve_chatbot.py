@@ -8,6 +8,7 @@ from typing import List, Tuple
 from pathlib import Path
 support_codes = ['python', 'markdown', 'json', 'html', 'css', 'javascript', 'typescript', 'yaml', 'dockerfile', 'shell', 'r', 'sql', 'sql-msSQL', 'sql-mySQL', 'sql-mariaDB', 'sql-sqlite', 'sql-cassandra', 'sql-plSQL', 'sql-hive', 'sql-pgSQL', 'sql-gql', 'sql-gpSQL', 'sql-sparkSQL', 'sql-esper']
 
+MODEL_NAME = None
 sio=None
 # Function to send input to the pty
 def send_pty_input(input_data):
@@ -28,7 +29,7 @@ def detect_code_language(code:str):
     message = "What's the langauge of the following code block?\n\n```" + code + "```" + "\nOptions: " + ", ".join(support_codes) + "\nPlease output the language name in the following format: 'language: <name>'"
     results = openai_completions(
         prompts=[message],
-        model_name="ChatGPT",
+        model_name=MODEL_NAME,
         max_tokens=2048,
         temperature=0.7,
         top_p=1.0,
@@ -86,7 +87,7 @@ def respond(message, chat_history):
     
     results = openai_completions(
         prompts=[chat_messages],
-        model_name="ChatGPT",
+        model_name=MODEL_NAME,
         max_tokens=2048,
         temperature=0.7,
         top_p=1.0,
@@ -99,17 +100,19 @@ def clear_codes(code_blocks, idx, code_block):
     return [], None, gr.Code("No code blocks found yet")
 
 
-
 def main(
     server_port:int=5000,
     root_path:str="",
-    terminal_addr="http://localhost:5001"
+    terminal_addr="http://localhost:5001",
+    model_name="gpt-3.5-turbo",
 ):
     global sio
     # Create a Socket.IO client
     sio = socketio.Client()
     # Connect to the Flask-SocketIO server
     sio.connect(terminal_addr, namespaces=['/pty'])
+    global MODEL_NAME
+    MODEL_NAME = model_name
     
 
     with gr.Blocks() as demo:
