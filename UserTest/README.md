@@ -3,6 +3,21 @@
 Google Form: [Terminal Efficiency Tasks](https://forms.gle/4oUtTs7usD1rVa8L8)
 
 ## Latin Squares
+| Participant | Device 1                     | Device 2                | Device 3               |
+|-------------|------------------------------|-------------------------|------------------------|
+| 1           | Normal Terminal with ChatGPT | Terminal with Built-in LLM | Web Terminal with Chatbox |
+| 2           | Web Terminal with Chatbox    | Normal Terminal with ChatGPT | Terminal with Built-in LLM |
+| 3           | Web Terminal with Chatbox    | Normal Terminal with ChatGPT      | Terminal with Built-in LLM |
+| 4           | Terminal with Built-in LLM   | Web Terminal with Chatbox | Normal Terminal with ChatGPT       |
+| 5           | Terminal with Built-in LLM   | Web Terminal with Chatbox | Normal Terminal with ChatGPT       |
+| 6           | Normal Terminal with ChatGPT              | Web Terminal with Chatbox | Terminal with Built-in LLM |
+| 7           | Terminal with Built-in LLM   | Normal Terminal with ChatGPT       | Web Terminal with Chatbox |
+| 8           | Normal Terminal with ChatGPT              | Web Terminal with Chatbox | Terminal with Built-in LLM |
+| 9           | Web Terminal with Chatbox    | Normal Terminal with ChatGPT       | Terminal with Built-in LLM |
+| 10          | Web Terminal with Chatbox    | Terminal with Built-in LLM | Normal Terminal with ChatGPT       |
+| 11          | Terminal with Built-in LLM   | Normal Terminal with ChatGPT       | Web Terminal with Chatbox |
+| 12          | Web Terminal with Chatbox    | Terminal with Built-in LLM | Normal Terminal with ChatGPT       |
+
 | Participant | Device 1 (Tasks)          | Device 2 (Tasks)          | Device 3 (Tasks)          |
 |-------------|---------------------------|---------------------------|---------------------------|
 | 1           | Task-3, Task-6, Task-9    | Task-1, Task-5, Task-8    | Task-2, Task-4, Task-7    |

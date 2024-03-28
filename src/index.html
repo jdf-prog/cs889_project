@@ -1,181 +1,192 @@
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
+<head>
+    <meta charset="utf-8"/>
     <title>CS889: DigitalDreamers Terminal Copilot</title>
     <style>
-      html {
-        font-family: arial;
-      }
+        html {
+            font-family: arial;
+        }
     </style>
     <style>
-      body, html {
-        height: 100%;
-        margin: 0;
-        font-family: Arial, sans-serif;
-        background-color: #f4f4f4; /* Added a light background color */
-      }
-      .container {
-        display: flex;
-        justify-content: space-around;
-        margin: 20px;
-        height: calc(100% - 40px);
-      }
-      .container > div, .container > iframe {
-        width: 45%;
-        height: calc(100% - 100px); /* Adjusted for title height */
-        margin: 10px;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        background-color: #fff; /* Sets the background color of each element to white */
-      }
-      .title-bar {
-        text-align: center;
-        padding: 10px;
-        font-size: 20px; /* Sets the font size for the title bars */
-        font-weight: bold;
-        border-bottom: 1px solid #ddd; /* Adds a separating line under the title */
-        border-radius: 4px 4px 0 0; /* Rounds only the top corners */
-        background-color: #eee; /* A light grey background for the title bars */
-      }
+        html {
+            overflow-y: hidden;
+        }
+
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0b0f19; /* Added a light background color */
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+            height: calc(100% - 40px);
+            overflow-y: hidden;
+        }
+
+        .container > div, .container > iframe {
+            width: 45%;
+            height: calc(100% - 100px); /* Adjusted for title height */
+            margin: 10px;
+        {#box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);#} border: 1px solid;
+            border-radius: 4px;
+            background-color: #1f2937;
+            border-color: #374151; /* Sets the background color of each element to white */
+
+            overflow-y: hidden;
+        }
+
+        .title-bar {
+            text-align: center;
+            padding: 10px;
+            font-size: 20px; /* Sets the font size for the title bars */
+            font-weight: bold;
+            border-bottom: 1px solid #374151; /* Adds a separating line under the title */
+            border-radius: 4px 4px 0 0; /* Rounds only the top corners */
+            background-color: #1f2937;
+            color: #ffffff; /* Sets the text color to white */
+        }
     </style>
     <link
-      rel="stylesheet"
-      href="https://unpkg.com/xterm@4.11.0/css/xterm.css"
+            rel="stylesheet"
+            href="https://unpkg.com/xterm@4.11.0/css/xterm.css"
     />
-  </head>
-  <body>
+</head>
+<body>
 <!--      <a href="https://github.com/cs01/pyxtermjs" target="_blank" style="font-size: 1.4em; text-decoration: none; color:black">pyxterm.js</a-->
 <!--      >&nbsp;&nbsp;&nbsp;-->
 <!--    </a>-->
-    <span style="font-size: small; float: right; padding: 5px; margin: 5px"
-      >status:
-      <span style="font-size: small" id="status">connecting...</span></span
-    >
-
-    <div class="container">
-      <div style="width: 45%; height: calc(100% - 50px)">
+<div hidden="hidden">
+<span style="font-size: small; float: right; padding: 5px; margin: 5px"
+>status:
+      <span style="font-size: small" id="status">connecting...</span></span>
+</div>
+<div class="container">
+    <div style="width: 48%; height: calc(100% - 20px)">
         <div class="title-bar">Terminal</div>
         <!-- Your terminal content goes here -->
-        <div style="height: calc(100% - 50px)" id="terminal"></div>
+        <div style="height: calc(100% ); color:#ffffff" id="terminal"></div>
     </div>
-      <div style="width: 45%; height: calc(100% - 50px)">
+    <div style="width: 48%; height: calc(100% - 20px)">
         <div class="title-bar">Chatbot</div>
-        <iframe src="http://127.0.0.1:9862" style="width: 100%; height: calc(100% - 50px); border: none">
+        <iframe src="http://127.0.0.1:9862" style="width: 100%; height: calc(100% ); border: none">
         </iframe>
-      </div>
     </div>
+</div>
 
 <!--    <p style="text-align: right; font-size: small">-->
 <!--      built by <a href="https://chadsmith.dev">Chad Smith</a>-->
 <!--      <a href="https://github.com/cs01">GitHub</a>-->
 <!--    </p>-->
-    <!-- xterm -->
-    <script src="https://unpkg.com/xterm@4.11.0/lib/xterm.js"></script>
-    <script src="https://unpkg.com/xterm-addon-fit@0.5.0/lib/xterm-addon-fit.js"></script>
-    <script src="https://unpkg.com/xterm-addon-web-links@0.4.0/lib/xterm-addon-web-links.js"></script>
-    <script src="https://unpkg.com/xterm-addon-search@0.8.0/lib/xterm-addon-sear
+<!-- xterm -->
+<script src="https://unpkg.com/xterm@4.11.0/lib/xterm.js"></script>
+<script src="https://unpkg.com/xterm-addon-fit@0.5.0/lib/xterm-addon-fit.js"></script>
+<script src="https://unpkg.com/xterm-addon-web-links@0.4.0/lib/xterm-addon-web-links.js"></script>
+<script src="https://unpkg.com/xterm-addon-search@0.8.0/lib/xterm-addon-sear
 ch.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.min.js"></script>
 
-    <script>
-      const term = new Terminal({
+<script>
+    const term = new Terminal({
         cursorBlink: true,
         macOptionIsMeta: true,
         scrollback: true,
-      });
-      term.attachCustomKeyEventHandler(customKeyEventHandler);
-      // https://github.com/xtermjs/xterm.js/issues/2941
-      const fit = new FitAddon.FitAddon();
-      term.loadAddon(fit);
-      term.loadAddon(new WebLinksAddon.WebLinksAddon());
-      term.loadAddon(new SearchAddon.SearchAddon());
+    });
+    term.attachCustomKeyEventHandler(customKeyEventHandler);
+    // https://github.com/xtermjs/xterm.js/issues/2941
+    const fit = new FitAddon.FitAddon();
+    term.loadAddon(fit);
+    term.loadAddon(new WebLinksAddon.WebLinksAddon());
+    term.loadAddon(new SearchAddon.SearchAddon());
 
-      term.open(document.getElementById("terminal"));
-      fit.fit();
-      term.resize(15, 50);
-      console.log(`size: ${term.cols} columns, ${term.rows} rows`);
-      fit.fit();
-      term.writeln("Welcome to pyxterm.js!");
-      term.writeln("https://github.com/cs01/pyxterm.js");
-      term.writeln('')
-      term.writeln("You can copy with ctrl+shift+x");
-      term.writeln("You can paste with ctrl+shift+v");
-      term.writeln('')
-      term.onData((data) => {
+    term.open(document.getElementById("terminal"));
+    fit.fit();
+    term.resize(15, 50);
+    console.log(`size: ${term.cols} columns, ${term.rows} rows`);
+    fit.fit();
+    term.writeln("Welcome to pyxterm.js!");
+    term.writeln("https://github.com/cs01/pyxterm.js");
+    term.writeln('')
+    term.writeln("You can copy with ctrl+shift+x");
+    term.writeln("You can paste with ctrl+shift+v");
+    term.writeln('')
+    term.onData((data) => {
         console.log("browser terminal received new data:", data);
-        socket.emit("pty-input", { input: data });
-      });
+        socket.emit("pty-input", {input: data});
+    });
 
-      const socket = io.connect("/pty");
-      const status = document.getElementById("status");
+    const socket = io.connect("/pty");
+    const status = document.getElementById("status");
 
-      socket.on("pty-output", function (data) {
+    socket.on("pty-output", function (data) {
         console.log("new output received from server:", data.output);
         term.write(data.output);
-      });
+    });
 
-      socket.on("connect", () => {
+    socket.on("connect", () => {
         fitToscreen();
         status.innerHTML =
-          '<span style="background-color: lightgreen;">connected</span>';
-      });
+            '<span style="background-color: lightgreen;">connected</span>';
+    });
 
-      socket.on("disconnect", () => {
+    socket.on("disconnect", () => {
         status.innerHTML =
-          '<span style="background-color: #ff8383;">disconnected</span>';
-      });
+            '<span style="background-color: #ff8383;">disconnected</span>';
+    });
 
-      function fitToscreen() {
+    function fitToscreen() {
         fit.fit();
-        const dims = { cols: term.cols, rows: term.rows };
+        const dims = {cols: term.cols, rows: term.rows};
         console.log("sending new dimensions to server's pty", dims);
         socket.emit("resize", dims);
-      }
+    }
 
-      function debounce(func, wait_ms) {
+    function debounce(func, wait_ms) {
         let timeout;
         return function (...args) {
-          const context = this;
-          clearTimeout(timeout);
-          timeout = setTimeout(() => func.apply(context, args), wait_ms);
+            const context = this;
+            clearTimeout(timeout);
+            timeout = setTimeout(() => func.apply(context, args), wait_ms);
         };
-      }
+    }
 
-      /**
-       * Handle copy and paste events
-       */
-      function customKeyEventHandler(e) {
+    /**
+     * Handle copy and paste events
+     */
+    function customKeyEventHandler(e) {
         if (e.type !== "keydown") {
-          return true;
+            return true;
         }
         if (e.ctrlKey && e.shiftKey) {
-          const key = e.key.toLowerCase();
-          if (key === "v") {
-            // ctrl+shift+v: paste whatever is in the clipboard
-            navigator.clipboard.readText().then((toPaste) => {
-              term.writeText(toPaste);
-            });
-            return false;
-          } else if (key === "c" || key === "x") {
-            // ctrl+shift+x: copy whatever is highlighted to clipboard
+            const key = e.key.toLowerCase();
+            if (key === "v") {
+                // ctrl+shift+v: paste whatever is in the clipboard
+                navigator.clipboard.readText().then((toPaste) => {
+                    term.writeText(toPaste);
+                });
+                return false;
+            } else if (key === "c" || key === "x") {
+                // ctrl+shift+x: copy whatever is highlighted to clipboard
 
-            // 'x' is used as an alternate to 'c' because ctrl+c is taken
-            // by the terminal (SIGINT) and ctrl+shift+c is taken by the browser
-            // (open devtools).
-            // I'm not aware of ctrl+shift+x being used by anything in the terminal
-            // or browser
-            const toCopy = term.getSelection();
-            navigator.clipboard.writeText(toCopy);
-            term.focus();
-            return false;
-          }
+                // 'x' is used as an alternate to 'c' because ctrl+c is taken
+                // by the terminal (SIGINT) and ctrl+shift+c is taken by the browser
+                // (open devtools).
+                // I'm not aware of ctrl+shift+x being used by anything in the terminal
+                // or browser
+                const toCopy = term.getSelection();
+                navigator.clipboard.writeText(toCopy);
+                term.focus();
+                return false;
+            }
         }
         return true;
-      }
+    }
 
-      const wait_ms = 50;
-      window.onresize = debounce(fitToscreen, wait_ms);
-    </script>
-  </body>
+    const wait_ms = 50;
+    window.onresize = debounce(fitToscreen, wait_ms);
+</script>
+</body>
 </html>
