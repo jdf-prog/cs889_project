@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ task_name }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script>
+    // This makes userId available to all scripts that run after this script block
+    const userId = "{{ user_id }}";
+    const currentDeviceId ="{{ device_name }}";
+</script>
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</head>
+<body>
+    <h1>Task: {{ task_name }}</h1>
+    <div id="taskDetails">{{ task_details|safe }}</div>
+    <div id="timer" style="font-size:24px; margin:20px;">0m:0s</div>
+    <!-- Button text will change based on state -->
+    <button id="timingBtn">I have understand the task: Start Timing!</button>
+    <button id="skipBtn" style="margin-left: 10px;">Skip</button>
+    <button id="continueBtn" style="display:none; margin-left: 10px;">Continue</button>
+
+    <div id="congratsMessage" style="display:none; margin:20px;">
+        Congratulations on completing the task!
+    </div>
+
+    <!-- Hidden input to store taskId -->
+    <input type="hidden" id="taskId" value="{{ task_id }}">
+</body>
+</html>

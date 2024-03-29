@@ -1,0 +1,13 @@
+Participant,Device 1,Device 1 (Tasks),Device 2,Device 2 (Tasks),Device 3,Device 3 (Tasks)
+1,Normal Terminal with ChatGPT,"Task-3, Task-6, Task-9",Terminal with Built-in LLM,"Task-1, Task-5, Task-8",Web Terminal with Chatbox,"Task-2, Task-4, Task-7"
+2,Web Terminal with Chatbox,"Task-2, Task-5, Task-7",Normal Terminal with ChatGPT,"Task-1, Task-6, Task-9",Terminal with Built-in LLM,"Task-3, Task-4, Task-8"
+3,Web Terminal with Chatbox,"Task-1, Task-6, Task-9",Normal Terminal with ChatGPT,"Task-3, Task-4, Task-8",Terminal with Built-in LLM,"Task-2, Task-5, Task-7"
+4,Terminal with Built-in LLM,"Task-3, Task-5, Task-7",Web Terminal with Chatbox,"Task-2, Task-4, Task-8",Normal Terminal with ChatGPT,"Task-1, Task-6, Task-9"
+5,Terminal with Built-in LLM,"Task-2, Task-4, Task-8",Web Terminal with Chatbox,"Task-3, Task-5, Task-7",Normal Terminal with ChatGPT,"Task-1, Task-6, Task-9"
+6,Normal Terminal with ChatGPT,"Task-3, Task-6, Task-8",Web Terminal with Chatbox,"Task-1, Task-5, Task-7",Terminal with Built-in LLM,"Task-2, Task-4, Task-9"
+7,Terminal with Built-in LLM,"Task-2, Task-5, Task-9",Normal Terminal with ChatGPT,"Task-1, Task-6, Task-8",Web Terminal with Chatbox,"Task-3, Task-4, Task-7"
+8,Normal Terminal with ChatGPT,"Task-1, Task-5, Task-8",Web Terminal with Chatbox,"Task-2, Task-4, Task-7",Terminal with Built-in LLM,"Task-3, Task-6, Task-9"
+9,Web Terminal with Chatbox,"Task-3, Task-4, Task-7",Normal Terminal with ChatGPT,"Task-1, Task-5, Task-8",Terminal with Built-in LLM,"Task-2, Task-6, Task-9"
+10,Web Terminal with Chatbox,"Task-3, Task-5, Task-9",Terminal with Built-in LLM,"Task-1, Task-4, Task-8",Normal Terminal with ChatGPT,"Task-2, Task-6, Task-7"
+11,Terminal with Built-in LLM,"Task-1, Task-6, Task-8",Normal Terminal with ChatGPT,"Task-3, Task-5, Task-9",Web Terminal with Chatbox,"Task-2, Task-4, Task-7"
+12,Web Terminal with Chatbox,"Task-3, Task-6, Task-9",Terminal with Built-in LLM,"Task-1, Task-4, Task-7",Normal Terminal with ChatGPT,"Task-2, Task-5, Task-8"

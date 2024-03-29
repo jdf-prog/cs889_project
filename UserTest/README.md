@@ -32,6 +32,16 @@ Google Form: [Terminal Efficiency Tasks](https://forms.gle/4oUtTs7usD1rVa8L8)
 | 10          | Task-3, Task-5, Task-9    | Task-1, Task-4, Task-8    | Task-2, Task-6, Task-7    |
 | 11          | Task-1, Task-6, Task-8    | Task-3, Task-5, Task-9    | Task-2, Task-4, Task-7    |
 | 12          | Task-3, Task-6, Task-9    | Task-1, Task-4, Task-7    | Task-2, Task-5, Task-8    |
+## Device Descriptions
+
+### Device 1: Normal Terminal with browser
+- **Description:** Normal Terminal with browser.
+
+### Device 2: Terminal with Built-in LLM
+- **Description:** Terminal with Built-in LLM.
+
+### Device 3: Web Terminal with Chatbox 
+- **Description:** Web Terminal with Chatbox.
 
 ## Easy Level Tasks
 
@@ -150,7 +160,7 @@ Go to `http://localhost:8000` in the browser.
 - **Objective:** Perform complex log analysis.
 - **Instructions:**
   1. Analyze `~/CS889/User-{}/Task-9/access_logs.txt`.
-  2. Extract requests made from IP address `10.0.0.1`.
+  2. Extract requests made from IP address `10.0.0.2`.
   3. Count how many times a particular resource was requested.
 - **Verify Results:** 
 Something like:
