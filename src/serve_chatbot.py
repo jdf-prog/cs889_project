@@ -69,13 +69,13 @@ def extract_codes_from_chat_history(previous_code_blocks:List[str], chat_history
     return all_code_blocks, lastest_code_block_idx, gr.Code(code, language=language)
 
 def increase_idx(code_blocks:List[str], idx:int):
-    if idx < len(code_blocks):
+    if idx and idx < len(code_blocks):
         idx += 1
     code, language = get_code_block_by_idx(code_blocks, idx)
     return idx, gr.Code(code, language=language)
 
 def decrease_idx(code_blocks:List[str], idx:int):
-    if idx > -1:
+    if idx and idx > -1:
         idx -= 1
     code, language = get_code_block_by_idx(code_blocks, idx)
     return idx, gr.Code(code, language=language)

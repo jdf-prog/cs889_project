@@ -22,3 +22,5 @@ flask_cors
 gradio
 fire
 git+https://github.com/jdf-prog/easy-openai.git
+
+markdown
