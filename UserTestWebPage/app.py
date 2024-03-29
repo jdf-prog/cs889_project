@@ -253,19 +253,6 @@ def determine_next_step(user_id, current_device_id, user_progress, latin_square)
     # Identify completed tasks for the current device
     print("current_device_id",current_device_id)
     completed_tasks = [record['taskID'] for record in user_progress if int(record['deviceID']) == current_device_id]
-
-    # Get tasks for the current device from the Latin square
-    if current_device_id>0:
-        current_device_tasks = get_tasks_for_user_device(user_id, current_device_id)
-        for i in range(len(current_device_tasks)):
-            current_device_tasks[i]=current_device_tasks[i].split('-')[-1]
-        print("current_device_tasks",current_device_tasks)
-        print("completed_tasks",completed_tasks)
-        # Find the first uncompleted task for the current device
-        for task in current_device_tasks:
-            if task not in completed_tasks:
-                return task, current_device_id  # Next task in current device
-
     user_id = int(session['user_id'])
     device_id_sequence = []
     device_name2id = {
@@ -277,7 +264,21 @@ def determine_next_step(user_id, current_device_id, user_progress, latin_square)
     device_id_sequence.append(device_name2id[user_row['Device 1']])
     device_id_sequence.append(device_name2id[user_row['Device 2']])
     device_id_sequence.append(device_name2id[user_row['Device 3']])
-    print("device_id_sequence",device_id_sequence)
+    print("device_id_sequence", device_id_sequence)
+    # Get tasks for the current device from the Latin square
+    if current_device_id>0:
+        device_sequence = device_id_sequence.index(current_device_id)
+        current_device_tasks = get_tasks_for_user_device(user_id, device_sequence+1)
+        for i in range(len(current_device_tasks)):
+            current_device_tasks[i]=current_device_tasks[i].split('-')[-1]
+        print("current_device_tasks",current_device_tasks)
+        print("completed_tasks",completed_tasks)
+        # Find the first uncompleted task for the current device
+        for task in current_device_tasks:
+            if task not in completed_tasks:
+                return task, current_device_id  # Next task in current device
+
+
     # If all tasks in the current device are completed, check for next device
     if current_device_id == 0:
         return None, device_id_sequence[0]
