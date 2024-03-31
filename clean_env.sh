@@ -7,3 +7,4 @@ conda remove -n developergpt --all
 # kill the background process for task 6 after the environment is cleaned
 pkill -f backup_script.sh
 pkill -f monitor.sh
+pkill -f usertestwebsite.py
