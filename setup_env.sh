@@ -14,4 +14,6 @@ conda deactivate
 bash ./UserTest/template/Task-6/Run\ by\ researcher/backup_script.sh &
 bash ./UserTest/template/Task-6/Run\ by\ researcher/monitor.sh &
 
-cd ./UserTest/User-12
+conda activate cs889
+cd UserTestWebPage/
+python app.py
