@@ -289,4 +289,4 @@ def determine_next_step(user_id, current_device_id, user_progress, latin_square)
         return None, None
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5002)
+    app.run(debug=True, port=22006, host='0.0.0.0')
