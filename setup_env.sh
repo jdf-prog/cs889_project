@@ -13,7 +13,3 @@ conda deactivate
 # run the background process for task 6
 bash ./UserTest/template/Task-6/Run\ by\ researcher/backup_script.sh &
 bash ./UserTest/template/Task-6/Run\ by\ researcher/monitor.sh &
-
-conda activate cs889
-cd UserTestWebPage/
-python usertestwebsite.py
