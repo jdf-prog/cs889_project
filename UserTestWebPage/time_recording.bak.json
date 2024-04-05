@@ -85,7 +85,7 @@
         "taskID": "2",
         "deviceID": "3",
         "startTime": "2024-03-29T21:45:58.227Z",
-        "endTime": "2024-03-29T21:46:52.111Z",
+        "endTime": "2024-03-29T21:50:32.111Z",
         "duration": 273.884,
         "finished": true
     },
@@ -571,8 +571,8 @@
         "taskID": "1",
         "deviceID": "1",
         "startTime": "2024-04-04T20:36:37.104Z",
-        "endTime": "2024-04-04T20:37:30.418Z",
-        "duration": 53.314,
+        "endTime": "2024-04-04T20:37:00.418Z",
+        "duration": 23.314,
         "finished": true
     },
     {
@@ -616,8 +616,8 @@
         "taskID": "7",
         "deviceID": "3",
         "startTime": "2024-04-04T20:54:09.967Z",
-        "endTime": "2024-04-04T20:56:30.814Z",
-        "duration": 130.847,
+        "endTime": "2024-04-04T20:57:50.814Z",
+        "duration": 220.847,
         "finished": true
     },
     {
@@ -652,8 +652,8 @@
         "taskID": "3",
         "deviceID": "3",
         "startTime": "2024-04-01T18:58:29.904Z",
-        "endTime": "2024-04-01T19:00:59.304Z",
-        "duration": 149.4,
+        "endTime": "2024-04-01T19:01:59.304Z",
+        "duration": 209.4,
         "finished": true
     },
     {
@@ -670,8 +670,8 @@
         "taskID": "7",
         "deviceID": "3",
         "startTime": "2024-04-01T19:06:30.106Z",
-        "endTime": "2024-04-01T19:9:04.041Z",
-        "duration": 153.935,
+        "endTime": "2024-04-01T19:11:04.041Z",
+        "duration": 273.935,
         "finished": true
     },
     {
@@ -840,9 +840,9 @@
         "userID": "11",
         "taskID": "3",
         "deviceID": "1",
-        "startTime": "2024-03-31T20:13:02.152Z",
-        "endTime": "2024-03-31T20:17:16.636Z",
-        "duration": 254.484,
+        "startTime": "2024-03-31T20:15:02.152Z",
+        "endTime": "2024-03-31T20:15:13.636Z",
+        "duration": 11.484,
         "finished": true
     },
     {
