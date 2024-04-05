@@ -1,5 +1,77 @@
 [
     {
+        "userID": "1",
+        "taskID": "3",
+        "deviceID": "1",
+        "startTime": "2024-03-29T17:12:14.734292Z",
+        "endTime": "2024-03-29T17:15:20.0802Z",
+        "duration": 185.346
+    },
+    {
+        "userID": "1",
+        "taskID": "6",
+        "deviceID": "1",
+        "startTime": "2024-03-29T17:20:08.232749Z",
+        "endTime": "2024-03-29T17:23:30.4617Z",
+        "duration": 202.229
+    },
+    {
+        "userID": "1",
+        "taskID": "9",
+        "deviceID": "1",
+        "startTime": "2024-03-29T17:28:21.121141Z",
+        "endTime": "2024-03-29T17:38:21.1211Z",
+        "duration": 600.0
+    },
+    {
+        "userID": "1",
+        "taskID": "1",
+        "deviceID": "2",
+        "startTime": "2024-03-29T17:43:34.009400Z",
+        "endTime": "2024-03-29T17:46:34.1424Z",
+        "duration": 180.133
+    },
+    {
+        "userID": "1",
+        "taskID": "5",
+        "deviceID": "2",
+        "startTime": "2024-03-29T17:52:15.635421Z",
+        "endTime": "2024-03-29T17:57:26.4604Z",
+        "duration": 310.825
+    },
+    {
+        "userID": "1",
+        "taskID": "8",
+        "deviceID": "2",
+        "startTime": "2024-03-29T18:01:35.406869Z",
+        "endTime": "2024-03-29T18:11:58.7218Z",
+        "duration": 623.315
+    },
+    {
+        "userID": "1",
+        "taskID": "2",
+        "deviceID": "3",
+        "startTime": "2024-03-29T18:15:01.760383Z",
+        "endTime": "2024-03-29T18:17:09.5143Z",
+        "duration": 127.754
+    },
+    {
+        "userID": "1",
+        "taskID": "4",
+        "deviceID": "3",
+        "startTime": "2024-03-29T18:22:03.397138Z",
+        "endTime": "2024-03-29T18:24:31.4571Z",
+        "duration": 148.06
+    },
+    {
+        "userID": "1",
+        "taskID": "7",
+        "deviceID": "3",
+        "startTime": "2024-03-29T18:28:52.030041Z",
+        "endTime": "2024-03-29T18:31:48.5220Z",
+        "duration": 176.492
+    },
+    {
         "userID": "2",
         "taskID": "2",
         "deviceID": "3",
