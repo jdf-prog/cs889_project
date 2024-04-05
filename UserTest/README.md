@@ -1,5 +1,6 @@
 # Terminal Efficiency Tasks
 
+Consent Survey: [Consent Form](https://uwaterloo.ca1.qualtrics.com/jfe/form/SV_9HtjBdFTJIA5vzo)
 Google Form: [Terminal Efficiency Tasks](https://forms.gle/4oUtTs7usD1rVa8L8)
 
 ## Latin Squares

@@ -1,1 +1,794 @@
-[{"userID": "2", "taskID": "2", "deviceID": "3", "startTime": "2024-03-29T21:45:58.227Z", "endTime": "2024-03-29T21:50:32.111Z", "duration": 273.884}, {"userID": "2", "taskID": "5", "deviceID": "3", "startTime": "2024-03-29T21:51:56.096Z", "endTime": "2024-03-29T21:53:37.596Z", "duration": 101.5}, {"userID": "2", "taskID": "7", "deviceID": "3", "startTime": "2024-03-29T21:54:31.195Z", "endTime": "2024-03-29T21:59:14.613Z", "duration": 283.418}, {"userID": "2", "taskID": "1", "deviceID": "1", "startTime": "2024-03-29T22:00:30.397Z", "endTime": "2024-03-29T22:01:01.180Z", "duration": 30.783}, {"userID": "2", "taskID": "6", "deviceID": "1", "startTime": "2024-03-29T22:01:29.431Z", "endTime": "2024-03-29T22:03:13.046Z", "duration": 103.615}, {"userID": "2", "taskID": "9", "deviceID": "1", "startTime": "2024-03-29T22:04:11.665Z", "endTime": "2024-03-29T22:06:20.397Z", "duration": 128.732}, {"userID": "2", "taskID": "3", "deviceID": "2", "startTime": "2024-03-29T22:09:18.249Z", "endTime": "2024-03-29T22:10:07.514Z", "duration": 49.265}, {"userID": "2", "taskID": "4", "deviceID": "2", "startTime": "2024-03-29T22:10:45.681Z", "endTime": "2024-03-29T22:14:32.582Z", "duration": 226.901}, {"userID": "2", "taskID": "8", "deviceID": "2", "startTime": "2024-03-29T22:16:10.271Z", "endTime": "2024-03-29T22:19:38.385Z", "duration": 208.114}, {"userID": "11", "taskID": "1", "deviceID": "2", "startTime": "2024-03-31T19:56:57.150Z", "endTime": "2024-03-31T19:57:53.702Z", "duration": 56.552}, {"userID": "11", "taskID": "6", "deviceID": "2", "startTime": "2024-03-31T20:00:12.299Z", "endTime": "2024-03-31T20:00:48.667Z", "duration": 36.368}, {"userID": "11", "taskID": "8", "deviceID": "2", "startTime": "2024-03-31T20:01:37.283Z", "endTime": "2024-03-31T20:09:52.987Z", "duration": 495.704}, {"userID": "11", "taskID": "3", "deviceID": "1", "startTime": "2024-03-31T20:15:02.152Z", "endTime": "2024-03-31T20:15:13.636Z", "duration": 11.484}, {"userID": "11", "taskID": "5", "deviceID": "1", "startTime": "2024-03-31T20:20:37.154Z", "endTime": "2024-03-31T20:26:21.476Z", "duration": 344.322}, {"userID": "11", "taskID": "9", "deviceID": "1", "startTime": "2024-03-31T20:28:41.431Z", "endTime": "2024-03-31T20:33:28.681Z", "duration": 287.25}, {"userID": "12", "taskID": "3", "deviceID": "3", "startTime": "2024-04-01T18:20:08.511Z", "endTime": "2024-04-01T18:21:19.874Z", "duration": 71.363}, {"userID": "12", "taskID": "6", "deviceID": "3", "startTime": "2024-04-01T18:21:34.931Z", "endTime": "2024-04-01T18:23:23.385Z", "duration": 108.454}, {"userID": "12", "taskID": "9", "deviceID": "3", "startTime": "2024-04-01T18:23:52.929Z", "endTime": "2024-04-01T18:25:35.283Z", "duration": 102.354}, {"userID": "12", "taskID": "1", "deviceID": "2", "startTime": "2024-04-01T18:28:53.874Z", "endTime": "2024-04-01T18:29:09.982Z", "duration": 16.108}, {"userID": "12", "taskID": "4", "deviceID": "2", "startTime": "2024-04-01T18:29:53.445Z", "endTime": "2024-04-01T18:33:09.966Z", "duration": 196.521}, {"userID": "12", "taskID": "7", "deviceID": "2", "startTime": "2024-04-01T18:33:54.348Z", "endTime": "2024-04-01T18:38:09.637Z", "duration": 255.289}, {"userID": "12", "taskID": "2", "deviceID": "1", "startTime": "2024-04-01T18:39:33.631Z", "endTime": "2024-04-01T18:39:56.054Z", "duration": 22.423}, {"userID": "12", "taskID": "5", "deviceID": "1", "startTime": "2024-04-01T18:41:11.147Z", "endTime": "2024-04-01T18:42:48.741Z", "duration": 97.594}, {"userID": "12", "taskID": "8", "deviceID": "1", "startTime": "2024-04-01T18:43:23.466Z", "endTime": "2024-04-01T18:44:23.836Z", "duration": 60.37}, {"userID": "9", "taskID": "3", "deviceID": "3", "startTime": "2024-04-01T18:58:29.904Z", "endTime": "2024-04-01T19:01:59.304Z", "duration": 209.4}, {"userID": "9", "taskID": "4", "deviceID": "3", "startTime": "2024-04-01T19:03:00.072Z", "endTime": "2024-04-01T19:05:03.773Z", "duration": 123.701}, {"userID": "9", "taskID": "7", "deviceID": "3", "startTime": "2024-04-01T19:06:30.106Z", "endTime": "2024-04-01T19:11:04.041Z", "duration": 273.935}, {"userID": "9", "taskID": "1", "deviceID": "1", "startTime": "2024-04-01T19:12:38.976Z", "endTime": "2024-04-01T19:13:07.309Z", "duration": 28.333}, {"userID": "9", "taskID": "5", "deviceID": "1", "startTime": "2024-04-01T19:13:41.742Z", "endTime": "2024-04-01T19:16:14.774Z", "duration": 153.032}, {"userID": "9", "taskID": "8", "deviceID": "1", "startTime": "2024-04-01T19:17:19.775Z", "endTime": "2024-04-01T19:19:57.191Z", "duration": 157.416}, {"userID": "9", "taskID": "2", "deviceID": "2", "startTime": "2024-04-01T19:21:49.024Z", "endTime": "2024-04-01T19:22:34.806Z", "duration": 45.782}, {"userID": "9", "taskID": "6", "deviceID": "2", "startTime": "2024-04-01T19:23:38.590Z", "endTime": "2024-04-01T19:25:10.357Z", "duration": 91.767}, {"userID": "9", "taskID": "9", "deviceID": "2", "startTime": "2024-04-01T19:26:43.174Z", "endTime": "2024-04-01T19:28:55.155Z", "duration": 131.981}, {"userID": "11", "taskID": "2", "deviceID": "3", "startTime": "2024-04-01T21:19:16.185Z", "endTime": "2024-04-01T21:20:31.304Z", "duration": 75.119}, {"userID": "11", "taskID": "4", "deviceID": "3", "startTime": "2024-04-01T21:22:16.885Z", "endTime": "2024-04-01T21:27:56.803Z", "duration": 339.918}, {"userID": "11", "taskID": "7", "deviceID": "3", "startTime": "2024-04-01T21:29:07.309Z", "endTime": "2024-04-01T21:33:37.830Z", "duration": 270.521}, {"userID": "10", "taskID": "3", "deviceID": "3", "startTime": "2024-04-02T16:58:09.365Z", "endTime": "2024-04-02T17:00:17.183Z", "duration": 127.818}, {"userID": "10", "taskID": "5", "deviceID": "3", "startTime": "2024-04-02T17:00:57.683Z", "endTime": "2024-04-02T17:02:03.817Z", "duration": 66.134}, {"userID": "10", "taskID": "9", "deviceID": "3", "startTime": "2024-04-02T17:02:36.785Z", "endTime": "2024-04-02T17:04:43.619Z", "duration": 126.834}, {"userID": "10", "taskID": "1", "deviceID": "2", "startTime": "2024-04-02T17:10:47.207Z", "endTime": "2024-04-02T17:11:13.388Z", "duration": 26.181}, {"userID": "10", "taskID": "4", "deviceID": "2", "startTime": "2024-04-02T17:11:39.290Z", "endTime": "2024-04-02T17:15:34.009Z", "duration": 234.719}, {"userID": "10", "taskID": "8", "deviceID": "2", "startTime": "2024-04-02T17:17:10.174Z", "endTime": "2024-04-02T17:17:35.808Z", "duration": 25.634}, {"userID": "10", "taskID": "2", "deviceID": "1", "startTime": "2024-04-02T17:19:59.443Z", "endTime": "2024-04-02T17:21:33.110Z", "duration": 93.667}, {"userID": "10", "taskID": "6", "deviceID": "1", "startTime": "2024-04-02T17:21:58.893Z", "endTime": "2024-04-02T17:24:11.478Z", "duration": 132.585}, {"userID": "10", "taskID": "7", "deviceID": "1", "startTime": "2024-04-02T17:24:57.862Z", "endTime": "2024-04-02T17:27:58.996Z", "duration": 181.134}, {"userID": "8", "taskID": "1", "deviceID": "1", "startTime": "2024-04-04T20:36:37.104Z", "endTime": "2024-04-04T20:37:00.418Z", "duration": 23.314}, {"userID": "8", "taskID": "5", "deviceID": "1", "startTime": "2024-04-04T20:37:26.620Z", "endTime": "2024-04-04T20:39:35.003Z", "duration": 128.383}, {"userID": "8", "taskID": "8", "deviceID": "1", "startTime": "2024-04-04T20:40:46.403Z", "endTime": "2024-04-04T20:43:16.721Z", "duration": 150.318}, {"userID": "8", "taskID": "2", "deviceID": "3", "startTime": "2024-04-04T20:47:32.970Z", "endTime": "2024-04-04T20:48:55.253Z", "duration": 82.283}, {"userID": "8", "taskID": "4", "deviceID": "3", "startTime": "2024-04-04T20:49:21.352Z", "endTime": "2024-04-04T20:50:57.568Z", "duration": 96.216}, {"userID": "8", "taskID": "7", "deviceID": "3", "startTime": "2024-04-04T20:54:09.967Z", "endTime": "2024-04-04T20:57:50.814Z", "duration": 220.847}, {"userID": "8", "taskID": "3", "deviceID": "2", "startTime": "2024-04-04T21:03:04.579Z", "endTime": "2024-04-04T21:03:56.613Z", "duration": 52.034}, {"userID": "8", "taskID": "6", "deviceID": "2", "startTime": "2024-04-04T21:05:00.014Z", "endTime": "2024-04-04T21:07:51.077Z", "duration": 171.063}, {"userID": "8", "taskID": "9", "deviceID": "2", "startTime": "2024-04-04T21:08:19.827Z", "endTime": "2024-04-04T21:09:30.689Z", "duration": 70.862}]
+[
+    {
+        "userID": "2",
+        "taskID": "2",
+        "deviceID": "3",
+        "startTime": "2024-03-29T21:45:58.227Z",
+        "endTime": "2024-03-29T21:50:32.111Z",
+        "duration": 273.884
+    },
+    {
+        "userID": "2",
+        "taskID": "5",
+        "deviceID": "3",
+        "startTime": "2024-03-29T21:51:56.096Z",
+        "endTime": "2024-03-29T21:53:37.596Z",
+        "duration": 101.5
+    },
+    {
+        "userID": "2",
+        "taskID": "7",
+        "deviceID": "3",
+        "startTime": "2024-03-29T21:54:31.195Z",
+        "endTime": "2024-03-29T21:59:14.613Z",
+        "duration": 283.418
+    },
+    {
+        "userID": "2",
+        "taskID": "1",
+        "deviceID": "1",
+        "startTime": "2024-03-29T22:00:30.397Z",
+        "endTime": "2024-03-29T22:01:01.180Z",
+        "duration": 30.783
+    },
+    {
+        "userID": "2",
+        "taskID": "6",
+        "deviceID": "1",
+        "startTime": "2024-03-29T22:01:29.431Z",
+        "endTime": "2024-03-29T22:03:13.046Z",
+        "duration": 103.615
+    },
+    {
+        "userID": "2",
+        "taskID": "9",
+        "deviceID": "1",
+        "startTime": "2024-03-29T22:04:11.665Z",
+        "endTime": "2024-03-29T22:06:20.397Z",
+        "duration": 128.732
+    },
+    {
+        "userID": "2",
+        "taskID": "3",
+        "deviceID": "2",
+        "startTime": "2024-03-29T22:09:18.249Z",
+        "endTime": "2024-03-29T22:10:07.514Z",
+        "duration": 49.265
+    },
+    {
+        "userID": "2",
+        "taskID": "4",
+        "deviceID": "2",
+        "startTime": "2024-03-29T22:10:45.681Z",
+        "endTime": "2024-03-29T22:14:32.582Z",
+        "duration": 226.901
+    },
+    {
+        "userID": "2",
+        "taskID": "8",
+        "deviceID": "2",
+        "startTime": "2024-03-29T22:16:10.271Z",
+        "endTime": "2024-03-29T22:19:38.385Z",
+        "duration": 208.114
+    },
+    {
+        "userID": "3",
+        "taskID": "1",
+        "deviceID": "3",
+        "startTime": "2024-03-29T23:55:36.767Z",
+        "endTime": "2024-03-29T23:58:01.016Z",
+        "duration": 144.249
+    },
+    {
+        "userID": "3",
+        "taskID": "6",
+        "deviceID": "3",
+        "startTime": "2024-03-29T23:58:41.032Z",
+        "endTime": "2024-03-30T00:02:44.762Z",
+        "duration": 243.73
+    },
+    {
+        "userID": "3",
+        "taskID": "9",
+        "deviceID": "3",
+        "startTime": "2024-03-30T00:04:30.196Z",
+        "endTime": "2024-03-30T00:07:19.330Z",
+        "duration": 169.134
+    },
+    {
+        "userID": "3",
+        "taskID": "3",
+        "deviceID": "1",
+        "startTime": "2024-03-30T00:09:16.234Z",
+        "endTime": "2024-03-30T00:11:35.702Z",
+        "duration": 139.468
+    },
+    {
+        "userID": "3",
+        "taskID": "4",
+        "deviceID": "1",
+        "startTime": "2024-03-30T00:14:27.429Z",
+        "endTime": "2024-03-30T00:19:26.576Z",
+        "duration": 299.147
+    },
+    {
+        "userID": "3",
+        "taskID": "8",
+        "deviceID": "1",
+        "startTime": "2024-03-30T00:20:48.776Z",
+        "endTime": "2024-03-30T00:22:49.558Z",
+        "duration": 120.782
+    },
+    {
+        "userID": "3",
+        "taskID": "2",
+        "deviceID": "2",
+        "startTime": "2024-03-30T00:25:21.691Z",
+        "endTime": "2024-03-30T00:26:44.573Z",
+        "duration": 82.882
+    },
+    {
+        "userID": "3",
+        "taskID": "5",
+        "deviceID": "2",
+        "startTime": "2024-03-30T00:27:23.604Z",
+        "endTime": "2024-03-30T00:32:02.037Z",
+        "duration": 278.433
+    },
+    {
+        "userID": "3",
+        "taskID": "7",
+        "deviceID": "2",
+        "startTime": "2024-03-30T00:33:16.086Z",
+        "endTime": "2024-03-30T00:36:02.845Z",
+        "duration": 166.759
+    },
+    {
+        "userID": "4",
+        "taskID": "3",
+        "deviceID": "2",
+        "startTime": "2024-04-01T15:20:30.051Z",
+        "endTime": "2024-04-01T15:22:11.513Z",
+        "duration": 101.462
+    },
+    {
+        "userID": "4",
+        "taskID": "5",
+        "deviceID": "2",
+        "startTime": "2024-04-01T15:22:53.110Z",
+        "endTime": "2024-04-01T15:27:16.744Z",
+        "duration": 263.634
+    },
+    {
+        "userID": "4",
+        "taskID": "7",
+        "deviceID": "2",
+        "startTime": "2024-04-01T15:30:58.932Z",
+        "endTime": "2024-04-01T15:36:22.969Z",
+        "duration": 324.037
+    },
+    {
+        "userID": "4",
+        "taskID": "2",
+        "deviceID": "3",
+        "startTime": "2024-04-01T15:38:11.108Z",
+        "endTime": "2024-04-01T15:38:59.241Z",
+        "duration": 48.133
+    },
+    {
+        "userID": "4",
+        "taskID": "4",
+        "deviceID": "3",
+        "startTime": "2024-04-01T15:39:50.908Z",
+        "endTime": "2024-04-01T15:41:57.581Z",
+        "duration": 126.673
+    },
+    {
+        "userID": "4",
+        "taskID": "8",
+        "deviceID": "3",
+        "startTime": "2024-04-01T15:45:31.607Z",
+        "endTime": "2024-04-01T15:46:34.718Z",
+        "duration": 63.111
+    },
+    {
+        "userID": "4",
+        "taskID": "1",
+        "deviceID": "1",
+        "startTime": "2024-04-01T15:48:06.000Z",
+        "endTime": "2024-04-01T15:49:55.014Z",
+        "duration": 109.014
+    },
+    {
+        "userID": "4",
+        "taskID": "6",
+        "deviceID": "1",
+        "startTime": "2024-04-01T15:50:29.121Z",
+        "endTime": "2024-04-01T15:52:28.574Z",
+        "duration": 119.453
+    },
+    {
+        "userID": "4",
+        "taskID": "9",
+        "deviceID": "1",
+        "startTime": "2024-04-01T15:53:16.331Z",
+        "endTime": "2024-04-01T15:58:11.386Z",
+        "duration": 295.055
+    },
+    {
+        "userID": "5",
+        "taskID": "2",
+        "deviceID": "2",
+        "startTime": "2024-04-04T17:16:57.902Z",
+        "endTime": "2024-04-04T17:18:45.863Z",
+        "duration": 107.961
+    },
+    {
+        "userID": "5",
+        "taskID": "4",
+        "deviceID": "2",
+        "startTime": "2024-04-04T17:19:32.569Z",
+        "endTime": "2024-04-04T17:22:32.890Z",
+        "duration": 180.321
+    },
+    {
+        "userID": "5",
+        "taskID": "8",
+        "deviceID": "2",
+        "startTime": "2024-04-04T17:23:25.154Z",
+        "endTime": "2024-04-04T17:25:39.781Z",
+        "duration": 134.627
+    },
+    {
+        "userID": "5",
+        "taskID": "3",
+        "deviceID": "3",
+        "startTime": "2024-04-04T17:27:46.785Z",
+        "endTime": "2024-04-04T17:29:26.940Z",
+        "duration": 100.155
+    },
+    {
+        "userID": "5",
+        "taskID": "5",
+        "deviceID": "3",
+        "startTime": "2024-04-04T17:30:34.898Z",
+        "endTime": "2024-04-04T17:32:28.654Z",
+        "duration": 113.756
+    },
+    {
+        "userID": "5",
+        "taskID": "7",
+        "deviceID": "3",
+        "startTime": "2024-04-04T17:33:22.651Z",
+        "endTime": "2024-04-04T17:34:53.746Z",
+        "duration": 91.095
+    },
+    {
+        "userID": "5",
+        "taskID": "1",
+        "deviceID": "1",
+        "startTime": "2024-04-04T17:35:57.157Z",
+        "endTime": "2024-04-04T17:37:47.988Z",
+        "duration": 110.831
+    },
+    {
+        "userID": "5",
+        "taskID": "6",
+        "deviceID": "1",
+        "startTime": "2024-04-04T17:38:20.533Z",
+        "endTime": "2024-04-04T17:41:18.550Z",
+        "duration": 178.017
+    },
+    {
+        "userID": "5",
+        "taskID": "9",
+        "deviceID": "1",
+        "startTime": "2024-04-04T17:42:18.301Z",
+        "endTime": "2024-04-04T17:44:16.107Z",
+        "duration": 117.806
+    },
+    {
+        "userID": "6",
+        "taskID": "3",
+        "deviceID": "1",
+        "startTime": "2024-04-04T18:04:43.097Z",
+        "endTime": "2024-04-04T18:06:43.562Z",
+        "duration": 120.465
+    },
+    {
+        "userID": "6",
+        "taskID": "6",
+        "deviceID": "1",
+        "startTime": "2024-04-04T18:08:28.922Z",
+        "endTime": "2024-04-04T18:10:23.222Z",
+        "duration": 114.3
+    },
+    {
+        "userID": "6",
+        "taskID": "8",
+        "deviceID": "1",
+        "startTime": "2024-04-04T18:11:58.872Z",
+        "endTime": "2024-04-04T18:13:52.342Z",
+        "duration": 113.47
+    },
+    {
+        "userID": "6",
+        "taskID": "1",
+        "deviceID": "3",
+        "startTime": "2024-04-04T18:15:59.939Z",
+        "endTime": "2024-04-04T18:17:50.064Z",
+        "duration": 110.125
+    },
+    {
+        "userID": "6",
+        "taskID": "5",
+        "deviceID": "3",
+        "startTime": "2024-04-04T18:18:32.253Z",
+        "endTime": "2024-04-04T18:20:52.932Z",
+        "duration": 140.679
+    },
+    {
+        "userID": "6",
+        "taskID": "7",
+        "deviceID": "3",
+        "startTime": "2024-04-04T18:23:37.702Z",
+        "endTime": "2024-04-04T18:28:21.716Z",
+        "duration": 284.014
+    },
+    {
+        "userID": "6",
+        "taskID": "2",
+        "deviceID": "2",
+        "startTime": "2024-04-04T18:31:06.150Z",
+        "endTime": "2024-04-04T18:32:37.424Z",
+        "duration": 91.274
+    },
+    {
+        "userID": "6",
+        "taskID": "4",
+        "deviceID": "2",
+        "startTime": "2024-04-04T18:33:26.079Z",
+        "endTime": "2024-04-04T18:35:45.777Z",
+        "duration": 139.698
+    },
+    {
+        "userID": "6",
+        "taskID": "9",
+        "deviceID": "2",
+        "startTime": "2024-04-04T18:36:52.610Z",
+        "endTime": "2024-04-04T18:38:18.270Z",
+        "duration": 85.66
+    },
+    {
+        "userID": "7",
+        "taskID": "2",
+        "deviceID": "2",
+        "startTime": "2024-04-04T19:15:59.223Z",
+        "endTime": "2024-04-04T19:19:37.086Z",
+        "duration": 217.863
+    },
+    {
+        "userID": "7",
+        "taskID": "5",
+        "deviceID": "2",
+        "startTime": "2024-04-04T19:20:42.337Z",
+        "endTime": "2024-04-04T19:20:43.609Z",
+        "duration": 1.272
+    },
+    {
+        "userID": "7",
+        "taskID": "9",
+        "deviceID": "2",
+        "startTime": "2024-04-04T19:22:19.797Z",
+        "endTime": "2024-04-04T19:24:01.638Z",
+        "duration": 101.841
+    },
+    {
+        "userID": "7",
+        "taskID": "1",
+        "deviceID": "1",
+        "startTime": "2024-04-04T19:28:18.363Z",
+        "endTime": "2024-04-04T19:32:53.961Z",
+        "duration": 275.598
+    },
+    {
+        "userID": "7",
+        "taskID": "6",
+        "deviceID": "1",
+        "startTime": "2024-04-04T19:34:18.497Z",
+        "endTime": "2024-04-04T19:36:21.902Z",
+        "duration": 123.405
+    },
+    {
+        "userID": "7",
+        "taskID": "8",
+        "deviceID": "1",
+        "startTime": "2024-04-04T19:38:00.950Z",
+        "endTime": "2024-04-04T19:39:41.435Z",
+        "duration": 100.485
+    },
+    {
+        "userID": "7",
+        "taskID": "3",
+        "deviceID": "3",
+        "startTime": "2024-04-04T19:43:35.555Z",
+        "endTime": "2024-04-04T19:44:48.939Z",
+        "duration": 73.384
+    },
+    {
+        "userID": "7",
+        "taskID": "4",
+        "deviceID": "3",
+        "startTime": "2024-04-04T19:45:53.957Z",
+        "endTime": "2024-04-04T19:49:58.043Z",
+        "duration": 244.086
+    },
+    {
+        "userID": "7",
+        "taskID": "7",
+        "deviceID": "3",
+        "startTime": "2024-04-04T19:51:17.790Z",
+        "endTime": "2024-04-04T19:53:04.481Z",
+        "duration": 106.691
+    },
+    {
+        "userID": "8",
+        "taskID": "1",
+        "deviceID": "1",
+        "startTime": "2024-04-04T20:36:37.104Z",
+        "endTime": "2024-04-04T20:37:00.418Z",
+        "duration": 23.314
+    },
+    {
+        "userID": "8",
+        "taskID": "5",
+        "deviceID": "1",
+        "startTime": "2024-04-04T20:37:26.620Z",
+        "endTime": "2024-04-04T20:39:35.003Z",
+        "duration": 128.383
+    },
+    {
+        "userID": "8",
+        "taskID": "8",
+        "deviceID": "1",
+        "startTime": "2024-04-04T20:40:46.403Z",
+        "endTime": "2024-04-04T20:43:16.721Z",
+        "duration": 150.318
+    },
+    {
+        "userID": "8",
+        "taskID": "2",
+        "deviceID": "3",
+        "startTime": "2024-04-04T20:47:32.970Z",
+        "endTime": "2024-04-04T20:48:55.253Z",
+        "duration": 82.283
+    },
+    {
+        "userID": "8",
+        "taskID": "4",
+        "deviceID": "3",
+        "startTime": "2024-04-04T20:49:21.352Z",
+        "endTime": "2024-04-04T20:50:57.568Z",
+        "duration": 96.216
+    },
+    {
+        "userID": "8",
+        "taskID": "7",
+        "deviceID": "3",
+        "startTime": "2024-04-04T20:54:09.967Z",
+        "endTime": "2024-04-04T20:57:50.814Z",
+        "duration": 220.847
+    },
+    {
+        "userID": "8",
+        "taskID": "3",
+        "deviceID": "2",
+        "startTime": "2024-04-04T21:03:04.579Z",
+        "endTime": "2024-04-04T21:03:56.613Z",
+        "duration": 52.034
+    },
+    {
+        "userID": "8",
+        "taskID": "6",
+        "deviceID": "2",
+        "startTime": "2024-04-04T21:05:00.014Z",
+        "endTime": "2024-04-04T21:07:51.077Z",
+        "duration": 171.063
+    },
+    {
+        "userID": "8",
+        "taskID": "9",
+        "deviceID": "2",
+        "startTime": "2024-04-04T21:08:19.827Z",
+        "endTime": "2024-04-04T21:09:30.689Z",
+        "duration": 70.862
+    },
+    {
+        "userID": "9",
+        "taskID": "3",
+        "deviceID": "3",
+        "startTime": "2024-04-01T18:58:29.904Z",
+        "endTime": "2024-04-01T19:01:59.304Z",
+        "duration": 209.4
+    },
+    {
+        "userID": "9",
+        "taskID": "4",
+        "deviceID": "3",
+        "startTime": "2024-04-01T19:03:00.072Z",
+        "endTime": "2024-04-01T19:05:03.773Z",
+        "duration": 123.701
+    },
+    {
+        "userID": "9",
+        "taskID": "7",
+        "deviceID": "3",
+        "startTime": "2024-04-01T19:06:30.106Z",
+        "endTime": "2024-04-01T19:11:04.041Z",
+        "duration": 273.935
+    },
+    {
+        "userID": "9",
+        "taskID": "1",
+        "deviceID": "1",
+        "startTime": "2024-04-01T19:12:38.976Z",
+        "endTime": "2024-04-01T19:13:07.309Z",
+        "duration": 28.333
+    },
+    {
+        "userID": "9",
+        "taskID": "5",
+        "deviceID": "1",
+        "startTime": "2024-04-01T19:13:41.742Z",
+        "endTime": "2024-04-01T19:16:14.774Z",
+        "duration": 153.032
+    },
+    {
+        "userID": "9",
+        "taskID": "8",
+        "deviceID": "1",
+        "startTime": "2024-04-01T19:17:19.775Z",
+        "endTime": "2024-04-01T19:19:57.191Z",
+        "duration": 157.416
+    },
+    {
+        "userID": "9",
+        "taskID": "2",
+        "deviceID": "2",
+        "startTime": "2024-04-01T19:21:49.024Z",
+        "endTime": "2024-04-01T19:22:34.806Z",
+        "duration": 45.782
+    },
+    {
+        "userID": "9",
+        "taskID": "6",
+        "deviceID": "2",
+        "startTime": "2024-04-01T19:23:38.590Z",
+        "endTime": "2024-04-01T19:25:10.357Z",
+        "duration": 91.767
+    },
+    {
+        "userID": "9",
+        "taskID": "9",
+        "deviceID": "2",
+        "startTime": "2024-04-01T19:26:43.174Z",
+        "endTime": "2024-04-01T19:28:55.155Z",
+        "duration": 131.981
+    },
+    {
+        "userID": "10",
+        "taskID": "3",
+        "deviceID": "3",
+        "startTime": "2024-04-02T16:58:09.365Z",
+        "endTime": "2024-04-02T17:00:17.183Z",
+        "duration": 127.818
+    },
+    {
+        "userID": "10",
+        "taskID": "5",
+        "deviceID": "3",
+        "startTime": "2024-04-02T17:00:57.683Z",
+        "endTime": "2024-04-02T17:02:03.817Z",
+        "duration": 66.134
+    },
+    {
+        "userID": "10",
+        "taskID": "9",
+        "deviceID": "3",
+        "startTime": "2024-04-02T17:02:36.785Z",
+        "endTime": "2024-04-02T17:04:43.619Z",
+        "duration": 126.834
+    },
+    {
+        "userID": "10",
+        "taskID": "1",
+        "deviceID": "2",
+        "startTime": "2024-04-02T17:10:47.207Z",
+        "endTime": "2024-04-02T17:11:13.388Z",
+        "duration": 26.181
+    },
+    {
+        "userID": "10",
+        "taskID": "4",
+        "deviceID": "2",
+        "startTime": "2024-04-02T17:11:39.290Z",
+        "endTime": "2024-04-02T17:15:34.009Z",
+        "duration": 234.719
+    },
+    {
+        "userID": "10",
+        "taskID": "8",
+        "deviceID": "2",
+        "startTime": "2024-04-02T17:17:10.174Z",
+        "endTime": "2024-04-02T17:17:35.808Z",
+        "duration": 25.634
+    },
+    {
+        "userID": "10",
+        "taskID": "2",
+        "deviceID": "1",
+        "startTime": "2024-04-02T17:19:59.443Z",
+        "endTime": "2024-04-02T17:21:33.110Z",
+        "duration": 93.667
+    },
+    {
+        "userID": "10",
+        "taskID": "6",
+        "deviceID": "1",
+        "startTime": "2024-04-02T17:21:58.893Z",
+        "endTime": "2024-04-02T17:24:11.478Z",
+        "duration": 132.585
+    },
+    {
+        "userID": "10",
+        "taskID": "7",
+        "deviceID": "1",
+        "startTime": "2024-04-02T17:24:57.862Z",
+        "endTime": "2024-04-02T17:27:58.996Z",
+        "duration": 181.134
+    },
+    {
+        "userID": "11",
+        "taskID": "1",
+        "deviceID": "2",
+        "startTime": "2024-03-31T19:56:57.150Z",
+        "endTime": "2024-03-31T19:57:53.702Z",
+        "duration": 56.552
+    },
+    {
+        "userID": "11",
+        "taskID": "6",
+        "deviceID": "2",
+        "startTime": "2024-03-31T20:00:12.299Z",
+        "endTime": "2024-03-31T20:00:48.667Z",
+        "duration": 36.368
+    },
+    {
+        "userID": "11",
+        "taskID": "8",
+        "deviceID": "2",
+        "startTime": "2024-03-31T20:01:37.283Z",
+        "endTime": "2024-03-31T20:09:52.987Z",
+        "duration": 495.704
+    },
+    {
+        "userID": "11",
+        "taskID": "3",
+        "deviceID": "1",
+        "startTime": "2024-03-31T20:15:02.152Z",
+        "endTime": "2024-03-31T20:15:13.636Z",
+        "duration": 11.484
+    },
+    {
+        "userID": "11",
+        "taskID": "5",
+        "deviceID": "1",
+        "startTime": "2024-03-31T20:20:37.154Z",
+        "endTime": "2024-03-31T20:26:21.476Z",
+        "duration": 344.322
+    },
+    {
+        "userID": "11",
+        "taskID": "9",
+        "deviceID": "1",
+        "startTime": "2024-03-31T20:28:41.431Z",
+        "endTime": "2024-03-31T20:33:28.681Z",
+        "duration": 287.25
+    },
+    {
+        "userID": "11",
+        "taskID": "2",
+        "deviceID": "3",
+        "startTime": "2024-04-01T21:19:16.185Z",
+        "endTime": "2024-04-01T21:20:31.304Z",
+        "duration": 75.119
+    },
+    {
+        "userID": "11",
+        "taskID": "4",
+        "deviceID": "3",
+        "startTime": "2024-04-01T21:22:16.885Z",
+        "endTime": "2024-04-01T21:27:56.803Z",
+        "duration": 339.918
+    },
+    {
+        "userID": "11",
+        "taskID": "7",
+        "deviceID": "3",
+        "startTime": "2024-04-01T21:29:07.309Z",
+        "endTime": "2024-04-01T21:33:37.830Z",
+        "duration": 270.521
+    },
+    {
+        "userID": "12",
+        "taskID": "3",
+        "deviceID": "3",
+        "startTime": "2024-04-01T18:20:08.511Z",
+        "endTime": "2024-04-01T18:21:19.874Z",
+        "duration": 71.363
+    },
+    {
+        "userID": "12",
+        "taskID": "6",
+        "deviceID": "3",
+        "startTime": "2024-04-01T18:21:34.931Z",
+        "endTime": "2024-04-01T18:23:23.385Z",
+        "duration": 108.454
+    },
+    {
+        "userID": "12",
+        "taskID": "9",
+        "deviceID": "3",
+        "startTime": "2024-04-01T18:23:52.929Z",
+        "endTime": "2024-04-01T18:25:35.283Z",
+        "duration": 102.354
+    },
+    {
+        "userID": "12",
+        "taskID": "1",
+        "deviceID": "2",
+        "startTime": "2024-04-01T18:28:53.874Z",
+        "endTime": "2024-04-01T18:29:09.982Z",
+        "duration": 16.108
+    },
+    {
+        "userID": "12",
+        "taskID": "4",
+        "deviceID": "2",
+        "startTime": "2024-04-01T18:29:53.445Z",
+        "endTime": "2024-04-01T18:33:09.966Z",
+        "duration": 196.521
+    },
+    {
+        "userID": "12",
+        "taskID": "7",
+        "deviceID": "2",
+        "startTime": "2024-04-01T18:33:54.348Z",
+        "endTime": "2024-04-01T18:38:09.637Z",
+        "duration": 255.289
+    },
+    {
+        "userID": "12",
+        "taskID": "2",
+        "deviceID": "1",
+        "startTime": "2024-04-01T18:39:33.631Z",
+        "endTime": "2024-04-01T18:39:56.054Z",
+        "duration": 22.423
+    },
+    {
+        "userID": "12",
+        "taskID": "5",
+        "deviceID": "1",
+        "startTime": "2024-04-01T18:41:11.147Z",
+        "endTime": "2024-04-01T18:42:48.741Z",
+        "duration": 97.594
+    },
+    {
+        "userID": "12",
+        "taskID": "8",
+        "deviceID": "1",
+        "startTime": "2024-04-01T18:43:23.466Z",
+        "endTime": "2024-04-01T18:44:23.836Z",
+        "duration": 60.37
+    }
+]
